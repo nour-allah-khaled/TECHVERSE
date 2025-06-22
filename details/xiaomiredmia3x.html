@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Xiaomi Redmi A3X - Product Details - Tech Verse</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="details.css" />
+  </head>
+  <body>
+    <!-- Breadcrumb -->
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+          <a href="../content.html" target="mainFrame">
+            <i class="bi bi-house-door-fill"></i> Home
+          </a>
+        </li>
+        <li class="breadcrumb-item active" aria-current="page">
+          Product Details
+        </li>
+      </ol>
+    </nav>
+    <!-- Product Details Section -->
+    <section class="product-details section-padding">
+      <div class="container">
+        <div class="row">
+          <!-- Product Images -->
+          <div class="col-md-6">
+            <div class="main-image">
+              <img
+                src="../images/xiaomi-redmi-a3x-1.jpg"
+                alt="Xiaomi Redmi A3X"
+                class="img-fluid"
+                id="mainImage"
+              />
+            </div>
+            <div class="thumbnails d-flex justify-content-center mt-3">
+              <img
+                src="../images/xiaomi-redmi-a3x-1.jpg"
+                alt="Xiaomi Redmi A3X Thumb 1"
+                class="thumbnail img-fluid me-2"
+                onclick="changeImage('../images/xiaomi-redmi-a3x-1.jpg')"
+              />
+              <img
+                src="../images/xiaomi-redmi-a3x-2.jpg"
+                alt="Xiaomi Redmi A3X Thumb 2"
+                class="thumbnail img-fluid me-2"
+                onclick="changeImage('../images/xiaomi-redmi-a3x-2.jpg')"
+              />
+              <img
+                src="../images/xiaomi-redmi-a3x-3.jpg"
+                alt="Xiaomi Redmi A3X Thumb 3"
+                class="thumbnail img-fluid"
+                onclick="changeImage('../images/xiaomi-redmi-a3x-3.jpg')"
+              />
+            </div>
+          </div>
+          <!-- Product Info -->
+          <div class="col-md-6">
+            <h2>Xiaomi Redmi A3X</h2>
+            <p class="price original-price">6,500 EGP</p>
+            <p class="price discounted-price">5,200 EGP</p>
+            <p class="spec">Unisoc T603, 128GB Storage</p>
+            <p class="description">6.71-inch display, 4GB RAM</p>
+            <div class="rating">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <span>5</span>
+            </div>
+            <div class="quantity mt-3">
+              <label for="quantity" class="me-2">Quantity:</label>
+              <div class="input-group d-inline-flex" style="width: 120px">
+                <button
+                  class="btn btn-outline-secondary"
+                  type="button"
+                  onclick="changeQuantity(-1)"
+                >
+                  -
+                </button>
+                <input
+                  type="text"
+                  class="form-control text-center"
+                  id="quantity"
+                  value="1"
+                  readonly
+                />
+                <button
+                  class="btn btn-outline-secondary"
+                  type="button"
+                  onclick="changeQuantity(1)"
+                >
+                  +
+                </button>
+              </div>
+            </div>
+            <a href="cart.html" target="mainFrame" class="btn btn-primary mt-3"
+              >Add to Cart</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tabs Section -->
+    <section class="tabs-section section-padding">
+      <div class="container">
+        <ul class="nav nav-tabs" id="productTabs" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link active"
+              id="about-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#about"
+              type="button"
+              role="tab"
+              aria-controls="about"
+              aria-selected="true"
+            >
+              About
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="reviews-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#reviews"
+              type="button"
+              role="tab"
+              aria-controls="reviews"
+              aria-selected="false"
+            >
+              Reviews
+            </button>
+          </li>
+        </ul>
+        <div class="tab-content" id="productTabsContent">
+          <div
+            class="tab-pane fade show active"
+            id="about"
+            role="tabpanel"
+            aria-labelledby="about-tab"
+          >
+            <ul class="product-specs">
+              <li><strong>Brand:</strong> Xiaomi</li>
+              <li><strong>Model:</strong> Redmi A3X</li>
+              <li>
+                <strong>Color Options:</strong> Midnight Black, Ocean Green,
+                Olive Green, Starry White
+              </li>
+              <li>
+                <strong>Processor:</strong> Unisoc T603, Octa-core (4x2.2 GHz
+                Cortex-A53 & 4x1.6 GHz Cortex-A53), 22nm
+              </li>
+              <li><strong>RAM:</strong> 4GB</li>
+              <li>
+                <strong>Storage:</strong> 128GB (base), expandable via microSDXC
+                up to 1TB
+              </li>
+              <li>
+                <strong>Display:</strong> 6.71" IPS LCD, HD+ (720x1650), 90Hz
+                refresh rate, 268 ppi, 500 nits peak brightness, Corning Gorilla
+                Glass 3
+              </li>
+              <li>
+                <strong>Connectivity:</strong> 4G LTE, Wi-Fi 802.11 a/b/g/n/ac,
+                Bluetooth 5.0, USB-C
+              </li>
+              <li>
+                <strong>I/O Ports:</strong> 1x USB-C (charging, data transfer),
+                1x Headphone Jack (3.5mm)
+              </li>
+              <li>
+                <strong>Operating System:</strong> Android 14 with MIUI, 2
+                Android major updates + 3 years of security patch updates
+              </li>
+              <li><strong>Warranty:</strong> 1-year limited warranty</li>
+            </ul>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="reviews"
+            role="tabpanel"
+            aria-labelledby="reviews-tab"
+          >
+            <p>No reviews yet. Be the first to review this product!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="container">
+        <p class="text-center mb-0">© 2025 Tech Verse</p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS for Quantity and Image Switch -->
+    <script>
+      function changeImage(src) {
+        document.getElementById("mainImage").src = src;
+      }
+
+      function changeQuantity(delta) {
+        const quantityInput = document.getElementById("quantity");
+        let quantity = parseInt(quantityInput.value);
+        quantity = Math.max(1, quantity + delta); // Ensure quantity doesn't go below 1
+        quantityInput.value = quantity;
+      }
+    </script>
+  </body>
+</html>
