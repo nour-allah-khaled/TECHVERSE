@@ -41,5 +41,6 @@ After completing the design, the pages were implemented using front-end web tech
 - [Abdelrahman Hamdy](https://github.com/AbdoHamdy15)
 
 ## 🌐 Live Demo  
-🔗 [[TECHVERSE Live Site](https://nour-allah-khaled.github.io/techverse/)]
+🔗 [[TECHVERSE Live Site]([https://nour-allah-khaled.github.io/techverse/](https://nour-allah-khaled.github.io/TECHVERSE/))]
+
 
