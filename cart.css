@@ -1,0 +1,157 @@
+body {
+  background-color: white;
+  margin: 0;
+  font-family: "Varela Round", "Segoe UI", Arial, sans-serif;
+  line-height: 1.5;
+}
+.breadcrumb {
+  background-color: transparent;
+  padding: 0;
+  margin-left: 272px;
+}
+
+.breadcrumb-item a {
+  text-decoration: none;
+  color: #1cdaff; /* Use one of your brand colors */
+}
+
+.breadcrumb-item.active {
+  color: #292929;
+}
+.cart-content {
+  padding: 40px 20px;
+}
+
+h1 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #1cdaff;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+}
+
+.text-box {
+  border: 1px solid #ccc;
+  padding: 25px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+}
+
+.table {
+  background-color: white;
+}
+
+.table th {
+  font-size: 1rem;
+  color: #292929;
+  font-weight: 500;
+  background-color: #e9ecef;
+}
+
+.table td {
+  vertical-align: middle;
+  color: #292929;
+}
+
+.quantity-control {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.quantity-control .btn {
+  padding: 5px 10px;
+}
+
+.quantity {
+  font-size: 1rem;
+  color: #292929;
+}
+
+.remove-btn {
+  font-size: 0.9rem;
+}
+
+.btn-outline-primary {
+  border-color: #1cdaff;
+  color: #1cdaff;
+}
+
+.btn-outline-primary:hover {
+  background-color: #00faa8;
+  border-color: #00faa8;
+  color: #292929;
+}
+
+/* Cart Summary */
+.cart-summary {
+  max-width: 400px;
+  margin-left: auto;
+}
+
+.cart-summary h2 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #1cdaff;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+}
+
+.cart-summary .total {
+  font-size: 1.1rem;
+  color: #292929;
+  margin-bottom: 15px;
+}
+
+.btn-primary {
+  background-color: #1cdaff;
+  border-color: #1cdaff;
+  color: #292929;
+  font-weight: 500;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.btn-primary:hover {
+  background-color: #00faa8;
+  border-color: #00faa8;
+  color: #292929;
+}
+
+/* Empty Cart */
+.empty-cart p {
+  font-size: 1.2rem;
+  color: #292929;
+  margin-bottom: 15px;
+}
+
+.continue-shopping {
+  font-size: 1rem;
+  color: #1cdaff;
+  text-decoration: none;
+}
+
+.continue-shopping:hover {
+  text-decoration: underline;
+  color: #00faa8;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 767.98px) {
+  .cart-summary {
+    max-width: 100%;
+    margin-left: 0;
+  }
+
+  .table {
+    font-size: 0.9rem;
+  }
+
+  .quantity-control .btn {
+    padding: 3px 8px;
+  }
+}

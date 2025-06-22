@@ -1,0 +1,126 @@
+body {
+  background-color: white;
+  margin: 0;
+  font-family: "Varela Round", "Segoe UI", Arial, sans-serif;
+  line-height: 1.5;
+  padding-left: 100px;
+}
+
+/* Breadcrumb */
+.breadcrumb {
+  background-color: transparent;
+  padding: 0;
+  margin-left: 272px;
+}
+
+.breadcrumb-item a {
+  text-decoration: none;
+  color: #1cdaff;
+}
+
+.breadcrumb-item.active {
+  color: #292929;
+}
+
+/* Content */
+.confirmation-content {
+  padding: 40px 20px;
+}
+
+.text-box {
+  border: 1px solid #ccc;
+  padding: 25px;
+  background-color: #f3f3f3;
+  border-radius: 5px;
+}
+
+h1 {
+  text-align: left;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #1cdaff;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+}
+
+/* Confirmation Message */
+.confirmation-message h2 {
+  font-size: 1.5rem;
+  color: #1cdaff;
+  margin-bottom: 10px;
+}
+
+.confirmation-message p {
+  font-size: 1rem;
+  color: #292929;
+  margin-bottom: 5px;
+}
+
+/* Action Buttons */
+.btn-outline-primary {
+  border-color: #1cdaff;
+  color: #1cdaff;
+}
+
+.btn-outline-primary:hover {
+  background-color: #00faa8;
+  border-color: #00faa8;
+  color: #292929;
+}
+
+.btn-primary {
+  background-color: #1cdaff;
+  border-color: #1cdaff;
+  color: #292929;
+  font-weight: 500;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.btn-primary:hover {
+  background-color: #00faa8;
+  border-color: #00faa8;
+  color: #292929;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 767.98px) {
+  body {
+    padding-left: 0;
+  }
+
+  .breadcrumb {
+    margin-left: 15px;
+  }
+
+  .confirmation-content {
+    padding: 20px 15px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .text-box {
+    padding: 15px;
+  }
+
+  .confirmation-message h2 {
+    font-size: 1.3rem;
+  }
+
+  .confirmation-message p {
+    font-size: 0.9rem;
+  }
+
+  .btn-primary,
+  .btn-outline-primary {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .action-buttons {
+    text-align: center;
+  }
+}

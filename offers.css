@@ -1,0 +1,65 @@
+.top-frame {
+  background-color: #585858;
+  color: white;
+  height: 100%;
+  overflow: hidden;
+  margin: 8px;
+  padding: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+.shipping-banner {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+@keyframes scroll-text {
+  0% {
+    transform: translateX(100vw);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+.marquee {
+  display: flex;
+  animation: scroll-text 20s linear infinite;
+  white-space: nowrap;
+  width: max-content;
+}
+.marquee span {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 50px;
+  font-weight: 600;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+}
+
+.marquee i {
+  margin-left: 8px;
+  font-size: 1rem;
+  color: #00fca8;
+  animation: bounce 2s infinite;
+}
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-3px);
+  }
+}
+.marquee span:hover i {
+  animation: spin 0.5s;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.marquee i {
+  margin-right: 7px;
+}

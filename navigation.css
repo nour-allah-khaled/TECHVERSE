@@ -1,0 +1,76 @@
+body {
+  background-color: white; /* Entire page background white */
+}
+
+.navbar {
+  padding-left: 100px;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: white; /* Navbar background white */
+  font-weight: bold;
+}
+
+.navbar-brand img {
+  width: 147px;
+  height: 52px;
+}
+
+.navbar-nav {
+  flex: 1;
+  text-align: center;
+}
+
+.navbar-nav .nav-item {
+  display: inline-block;
+  margin-left: 10px;
+  padding-left: 75px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #545454;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #00faa8;
+  border: 2px solid #00faa8; /* Box around text on hover */
+  border-radius: 5px;
+  padding: 5px 10px; /* Adjust padding to fit border */
+}
+
+.d-flex .nav-link {
+  margin: 0 10px;
+}
+
+.d-flex .nav-link i {
+  font-size: 1.2rem;
+  color: #1cdaff;
+}
+
+.d-flex .nav-link:hover i {
+  color: #00faa8;
+}
+.input-group {
+  width: 400px;
+}
+
+.search-input {
+  border-color: #1cdaff;
+  color: #545454;
+}
+
+.search-input:focus {
+  border-color: #00faa8;
+  box-shadow: 0 0 5px rgba(0, 250, 168, 0.5);
+}
+
+.btn-outline-primary {
+  border-color: #1cdaff;
+  color: #1cdaff;
+  margin-right: 30px;
+}
+
+.btn-outline-primary:hover {
+  background-color: #00faa8;
+  border-color: #00faa8;
+  color: #292929;
+}

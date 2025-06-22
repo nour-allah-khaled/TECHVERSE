@@ -1,0 +1,112 @@
+body {
+  background-color: white;
+  margin: 0;
+  font-family: "Varela Round", "Segoe UI", Arial, sans-serif;
+  line-height: 1.5;
+  padding-left: 100px;
+}
+.breadcrumb {
+  background-color: transparent;
+  padding: 0;
+  margin-left: 272px;
+}
+
+.breadcrumb-item a {
+  text-decoration: none;
+  color: #1cdaff; /* Use one of your brand colors */
+}
+
+.breadcrumb-item.active {
+  color: #292929;
+}
+.login-content {
+  padding: 40px 20px;
+}
+
+.text-box {
+  border: 1px solid #ccc; /* Border to create the box effect, same as AboutUs.html */
+  padding: 25px; /* Increased padding for better spacing inside the box */
+  background-color: #f3f3f3; /* Light gray background, same as AboutUs.html */
+  border-radius: 5px;
+}
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #1cdaff;
+  border-bottom: 1px solid #ccc; /* Separating line */
+  padding-bottom: 5px;
+}
+.login-form {
+  max-width: 400px;
+  margin: 0 50px;
+}
+.form-label {
+  font-size: 1rem;
+  color: #292929;
+  font-weight: 500;
+}
+
+.form-control {
+  border-color: #1cdaff;
+  color: #292929;
+  border-radius: 5px;
+}
+
+.form-control:focus {
+  border-color: #00faa8;
+  box-shadow: 0 0 5px rgba(0, 250, 168, 0.5);
+}
+
+.form-check-label {
+  font-size: 0.95rem;
+  color: #292929;
+}
+
+.form-check-label a {
+  color: #1cdaff;
+  text-decoration: none;
+}
+
+.form-check-label a:hover {
+  text-decoration: underline;
+  color: #00faa8;
+}
+
+.btn-primary {
+  background-color: #1cdaff;
+  border-color: #1cdaff;
+  color: #292929;
+  font-weight: 500;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.btn-primary:hover {
+  background-color: #00faa8;
+  border-color: #00faa8;
+  color: #292929;
+}
+.signup-link {
+  font-size: 0.95rem;
+  color: #292929;
+  text-align: center;
+}
+
+.signup-link a {
+  color: #1cdaff;
+  text-decoration: none;
+}
+
+.signup-link a:hover {
+  text-decoration: underline;
+  color: #00faa8;
+}
+
+.login-image {
+  max-width: 100%;
+  height: 80%;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}

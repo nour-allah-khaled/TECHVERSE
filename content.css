@@ -1,0 +1,382 @@
+body {
+  background-color: white;
+  margin: 0;
+  font-family: "Varela Round", "Segoe UI", Arial, sans-serif;
+  line-height: 1.5;
+}
+
+/* General Section Padding */
+.section-padding {
+  padding: 40px 0;
+}
+
+/* Carousel Section */
+.carousel-section {
+  background-color: white;
+}
+
+.carousel {
+  padding: 0;
+}
+
+.carousel-content {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 100%;
+}
+
+.carousel-image {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1250 / 355; /* Maintain original image aspect ratio */
+  border-radius: 5px;
+  object-fit: cover;
+}
+/* Category Highlights Section */
+.category-highlights {
+  background-color: white;
+}
+
+.category-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  height: 100%; /* Ensure cards are equal height in the row */
+}
+
+.category-card:hover {
+  transform: scale(1.05);
+}
+
+.image-wrapper {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 aspect ratio */
+}
+
+.category-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.category-content {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.category-content h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.category-content .btn-primary {
+  background-color: #1cdaff;
+  border-color: #1cdaff;
+  color: #292929;
+  font-weight: 500;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.category-content .btn-primary:hover {
+  background-color: #00faa8;
+  border-color: #00faa8;
+}
+
+/* Bestsellers Section */
+.bestsellers h2,
+.mobile-offer h2,
+.new-arrivals h2,
+.reviews h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #1cdaff;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+.original-price {
+  text-decoration: line-through;
+  color: #666;
+  font-weight: normal;
+}
+
+.product-card {
+  background-color: #f3f3f3;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 100%; /* Ensure cards maintain consistent height */
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+}
+
+.product-image {
+  width: 100%;
+  height: auto; /* Removed fixed height to fit natural image size */
+  object-fit: contain; /* Changed to contain to show the full image */
+  border-radius: 5px;
+  margin-bottom: 10px;
+  flex-shrink: 0; /* Prevent image from shrinking */
+}
+
+.product-card h4 {
+  font-size: 1.2rem;
+  color: #292929;
+  margin-bottom: 5px;
+  flex-grow: 1; /* Allow text to grow and fill space */
+}
+
+.product-card .price {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #292929;
+  margin-bottom: 5px;
+}
+
+.product-card .description {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.product-card .rating {
+  margin-bottom: 10px;
+  color: #1cdaff;
+}
+
+.product-card .rating i {
+  font-size: 0.9rem;
+}
+
+.product-card .rating span {
+  font-size: 0.9rem;
+  margin-left: 5px;
+  color: #292929;
+}
+
+.product-card .btn-outline-primary {
+  border-color: #1cdaff;
+  color: #1cdaff;
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  margin-top: auto; /* Push button to bottom */
+}
+
+.product-card .btn-outline-secondary {
+  border-color: #292929; /* Dark gray border to contrast with primary */
+  color: #292929;
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.product-card .btn-outline-primary:hover {
+  background-color: #00d5ff;
+  border-color: #00d5ff;
+  color: #292929;
+}
+
+/* Mobile Offer Section */
+.mobile-offer .original-price {
+  text-decoration: line-through;
+  color: #666;
+  font-weight: normal;
+}
+
+.mobile-offer .discounted-price {
+  color: #00faa8;
+  font-weight: bold;
+}
+
+/* Flash Sale Banner */
+.flash-sale {
+  background-color: #1cdaff;
+  padding: 20px 0;
+}
+
+.flash-sale h3 {
+  font-size: 1.5rem;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.flash-sale .btn-primary {
+  background-color: white;
+  border-color: white;
+  color: #1cdaff;
+  font-weight: 500;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.flash-sale .btn-primary:hover {
+  background-color: #666;
+  border-color: #f3f3f3;
+  color: white;
+}
+
+/* Reviews Section */
+.review-card {
+  background-color: #f3f3f3;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.review-card .quote {
+  font-size: 1rem;
+  color: #292929;
+  margin-bottom: 10px;
+}
+
+.review-card .author {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.review-card .rating {
+  color: #1cdaff;
+}
+
+.review-card .rating i {
+  font-size: 0.9rem;
+}
+
+.review-card .rating span {
+  font-size: 0.9rem;
+  margin-left: 5px;
+  color: #292929;
+}
+.brand-partners {
+  background-color: #f3f3f3;
+}
+
+.brand-logo {
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+  filter: grayscale(100%);
+  transition: filter 0.3s;
+}
+
+.brand-logo:hover {
+  filter: grayscale(0%);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 991.98px) {
+  .carousel-image {
+    max-height: 300px; /* Adjust for smaller screens */
+  }
+
+  .category-card {
+    margin-bottom: 20px; /* Space between stacked cards */
+  }
+}
+
+@media (max-width: 767.98px) {
+  .section-padding {
+    padding: 20px 0;
+  }
+
+  .carousel-image {
+    max-height: 200px;
+  }
+
+  .category-content h3 {
+    font-size: 1.2rem;
+  }
+
+  .category-content .btn-primary {
+    padding: 8px 15px;
+    font-size: 0.9rem;
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    width: 30px;
+    height: 30px;
+    background-size: 60%;
+  }
+
+  .bestsellers h2,
+  .mobile-offer h2,
+  .new-arrivals h2,
+  .reviews h2 {
+    font-size: 1.5rem;
+  }
+
+  .product-card {
+    padding: 10px;
+  }
+
+  .product-image {
+    height: 150px;
+  }
+
+  .product-card h4 {
+    font-size: 1rem;
+  }
+
+  .product-card .price {
+    font-size: 0.9rem;
+  }
+
+  .product-card .description {
+    font-size: 0.8rem;
+  }
+
+  .flash-sale h3 {
+    font-size: 1.2rem;
+  }
+
+  .flash-sale .btn-primary {
+    padding: 8px 15px;
+    font-size: 0.9rem;
+  }
+
+  .review-card {
+    padding: 10px;
+  }
+
+  .review-card .quote {
+    font-size: 0.9rem;
+  }
+
+  .review-card .author {
+    font-size: 0.8rem;
+  }
+
+  .brand-logo {
+    max-width: 100px;
+  }
+}

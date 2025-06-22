@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navigation</title>
+    <!-- Bootstrap CSS-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="navigation.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <!-- Logo -->
+        <a class="navbar-brand" href="content.html" target="mainFrame">
+          <img
+            src="images/logo.png"
+            alt="TECHVERSE"
+            width="147px"
+            height="52px"
+          />
+        </a>
+        <!-- Toggler for small screens -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Nav Links -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="Laptops.html" target="mainFrame"
+                >Laptops</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Mobiles.html" target="mainFrame"
+                >Mobiles</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Tablets.html" target="mainFrame"
+                >Tablets</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Audio.html" target="mainFrame">Audio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Accessories.html" target="mainFrame"
+                >Accessories</a
+              >
+            </li>
+          </ul>
+          <!-- Right-side Search Bar and Icons -->
+          <div class="d-flex align-items-center">
+            <form
+              class="d-flex me-2"
+              role="search"
+              action="search.html"
+              target="mainFrame"
+              onsubmit="return false;"
+            >
+              <div class="input-group">
+                <input
+                  class="form-control search-input"
+                  type="search"
+                  placeholder="Search products..."
+                  aria-label="Search"
+                />
+                <button class="btn btn-outline-primary" type="submit">
+                  <i class="bi bi-search"></i>
+                </button>
+              </div>
+            </form>
+            <a class="nav-link" href="cart.html" target="mainFrame"
+              ><i class="bi bi-cart"></i
+            ></a>
+            <a class="nav-link" href="Login.html" target="mainFrame"
+              ><i class="bi bi-person"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </body>
+</html>

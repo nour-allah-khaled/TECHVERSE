@@ -1,0 +1,91 @@
+body {
+  background-color: white;
+  margin: 0;
+  font-family: "Varela Round", "Segoe UI", Arial, sans-serif;
+  line-height: 1.5;
+}
+.breadcrumb {
+  background-color: transparent;
+  padding: 0;
+  margin-left: 272px;
+}
+
+.breadcrumb-item a {
+  text-decoration: none;
+  color: #1cdaff; /* Use one of your brand colors */
+}
+
+.breadcrumb-item.active {
+  color: #292929;
+}
+
+.about-us-content {
+  padding: 0px;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.who-we-are,
+.our-vision,
+.our-values,
+.our-partners {
+  margin-bottom: 30px;
+}
+
+.text-box {
+  border: 1px solid #ccc;
+  padding: 15px;
+  background-color: #f3f3f3;
+  border-radius: 5px;
+  padding-bottom: 5px;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #1cdaff;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #1cdaff;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+}
+
+p {
+  font-size: 1rem;
+  color: #292929;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  font-size: 1rem;
+  color: #292929;
+  margin-bottom: 5px;
+}
+
+ul li strong {
+  color: #00faa8;
+}
+
+.partner-logo {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.partner-logo img {
+  max-width: 100px;
+  height: auto;
+}

@@ -1,0 +1,255 @@
+/* mobiles.css for Mobiles.html */
+
+body {
+  background-color: white;
+  margin: 0;
+  font-family: "Varela Round", "Segoe UI", Arial, sans-serif;
+  line-height: 1.5;
+}
+
+/* Breadcrumb */
+.breadcrumb {
+  background-color: transparent;
+  padding: 0;
+  margin-left: 272px;
+}
+
+.breadcrumb-item a {
+  text-decoration: none;
+  color: #1cdaff;
+}
+
+.breadcrumb-item.active {
+  color: #292929;
+}
+
+/* General Section Padding */
+.section-padding {
+  padding: 40px 0;
+}
+
+/* Bestsellers Section (Mobiles Collection) */
+.bestsellers h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #1cdaff;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+  text-align: left;
+}
+
+/* Container Adjustments */
+.container {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+/* Product Cards */
+.product-card {
+  background-color: #f3f3f3;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  min-height: 620px;
+  height: 100%;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+}
+
+.product-image {
+  width: 100%;
+  height: 280px;
+  object-fit: contain;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  flex-shrink: 0;
+}
+
+.product-card h4 {
+  font-size: 1.5rem;
+  color: #292929;
+  margin-bottom: 8px;
+  min-height: 24px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.product-card .price {
+  font-size: 1.1rem;
+  color: #292929;
+  margin-bottom: 8px;
+  min-height: 22px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.product-card .spec {
+  font-size: 0.9rem;
+  font-style: italic;
+  color: #666;
+  margin-bottom: 8px;
+  min-height: 16px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.product-card .description {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 8px;
+  min-height: 18px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.product-card .rating {
+  margin-bottom: 10px;
+  color: #1cdaff;
+  min-height: 20px;
+}
+
+.product-card .rating i {
+  font-size: 1rem;
+}
+
+.product-card .rating span {
+  font-size: 1rem;
+  margin-left: 5px;
+  color: #292929;
+}
+
+.product-card .btn-outline-primary {
+  border-color: #1cdaff;
+  color: #1cdaff;
+  width: 100%;
+  padding: 12px;
+  border-radius: 5px;
+  margin-top: auto;
+  font-size: 1.1rem;
+}
+
+.product-card .btn-outline-secondary {
+  border-color: #292929;
+  color: #292929;
+  width: 100%;
+  padding: 12px;
+  border-radius: 5px;
+  margin-top: 5px;
+  font-size: 1.1rem;
+}
+
+.product-card .btn-outline-primary:hover {
+  background-color: #00d5ff;
+  border-color: #00d5ff;
+  color: #292929;
+}
+.original-price {
+  text-decoration: line-through;
+  color: #666;
+  font-weight: normal;
+}
+
+/* Pagination Styling */
+.pagination .page-link {
+  color: #1cdaff;
+  border: 1px solid #1cdaff;
+  border-radius: 5px;
+  margin: 0 5px;
+  font-size: 1.1rem;
+  padding: 8px 14px;
+}
+
+.pagination .page-item.active .page-link {
+  background-color: #1cdaff;
+  border-color: #1cdaff;
+  color: #292929;
+}
+
+.pagination .page-link:hover {
+  background-color: #00faa8;
+  border-color: #00faa8;
+  color: #292929;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 767.98px) {
+  .page-header {
+    padding: 15px 0;
+  }
+
+  .page-header h1 {
+    font-size: 1.8rem;
+  }
+
+  .section-padding {
+    padding: 20px 0;
+  }
+
+  .container {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .bestsellers h2 {
+    font-size: 1.5rem;
+  }
+
+  .product-card {
+    padding: 15px;
+    min-height: 500px;
+    height: 500px;
+  }
+
+  .product-image {
+    height: 220px;
+  }
+
+  .product-card h4 {
+    font-size: 1.3rem;
+    min-height: 20px;
+  }
+
+  .product-card .price {
+    font-size: 1.2rem;
+    min-height: 18px;
+  }
+
+  .product-card .spec {
+    font-size: 0.8rem;
+    min-height: 14px;
+  }
+
+  .product-card .description {
+    font-size: 0.9rem;
+    min-height: 16px;
+  }
+
+  .product-card .btn-outline-primary,
+  .product-card .btn-outline-secondary {
+    padding: 10px;
+    font-size: 0.9rem;
+  }
+
+  .product-card .rating i,
+  .product-card .rating span {
+    font-size: 0.8rem;
+  }
+
+  .pagination .page-link {
+    font-size: 0.9rem;
+    padding: 6px 10px;
+  }
+}

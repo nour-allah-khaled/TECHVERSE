@@ -1,0 +1,141 @@
+body {
+  background-color: white;
+  margin: 0;
+  font-family: "Varela Round", "Segoe UI", Arial, sans-serif;
+  line-height: 1.5;
+}
+.breadcrumb {
+  background-color: transparent;
+  padding: 0;
+  margin-left: 272px;
+}
+
+.breadcrumb-item a {
+  text-decoration: none;
+  color: #1cdaff; /* Use one of your brand colors */
+}
+
+.breadcrumb-item.active {
+  color: #292929;
+}
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+/* Terms Box Container */
+.terms-box {
+  border: 1px solid #ccc;
+  padding: 15px;
+  background-color: #f3f3f3;
+  border-radius: 5px;
+  padding-bottom: 5px;
+}
+
+/* Scrollbar */
+.terms-box::-webkit-scrollbar {
+  width: 8px;
+}
+
+.terms-box::-webkit-scrollbar-thumb {
+  background-color: #aaa;
+  border-radius: 4px;
+}
+
+.terms-box::-webkit-scrollbar-track {
+  background-color: #ddd;
+}
+
+/* Headings */
+.terms-box h1 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #1cdaff; /* Matches your heading color */
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+.terms-box h2 {
+  font-size: 1.2rem;
+  color: #1cdaff; /* Matches your heading color */
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  text-align: left;
+  position: relative;
+  padding-left: 25px;
+  border-bottom: 1px solid #ccc;
+}
+
+.terms-box h2::before {
+  content: "\f138"; /* Bootstrap Icon: chevron-right */
+  font-family: "bootstrap-icons";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #00faa8; /* Matches your highlight color */
+}
+
+/* Paragraphs */
+.terms-box p {
+  font-size: 1rem;
+  color: #292929; /* Matches your text color */
+  line-height: 1.6;
+  margin: 10px 0;
+  text-align: left;
+  margin-right: 6px;
+}
+
+.terms-box strong {
+  color: #00faa8; /* Matches your highlight color */
+}
+
+/* Main List */
+.terms-box ul {
+  list-style: none;
+  padding-left: 25px;
+  margin: 0;
+}
+
+.terms-box ul li {
+  position: relative;
+  margin-bottom: 10px;
+  font-size: 1rem;
+  color: #292929;
+  padding-left: 25px;
+  text-align: left;
+}
+
+/* Icon bullet for main list */
+.terms-box ul li::before {
+  content: "\f138"; /* Bootstrap Icon: chevron-right */
+  font-family: "bootstrap-icons";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #00faa8; /* Matches your highlight color */
+}
+
+/* Sub-list stays aligned */
+.terms-box ul li ul {
+  padding-left: 20px;
+  margin-top: 5px;
+}
+
+.terms-box ul li ul li {
+  font-size: 0.95rem;
+  padding-left: 15px;
+  color: #555;
+  position: relative;
+  text-align: left;
+}
+
+/* Bullet for sub-list items */
+.terms-box ul li ul li::before {
+  content: "\f111"; /* Bootstrap Icon: circle */
+  font-family: "bootstrap-icons";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #888;
+}

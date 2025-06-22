@@ -1,0 +1,41 @@
+body {
+  background-color: white;
+  margin: 0;
+  font-family: "Varela Round", "Segoe UI", Arial, sans-serif;
+  line-height: 1.5;
+}
+
+.orders-content {
+  padding: 20px;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #1cdaff;
+  margin-bottom: 20px;
+}
+
+.message-box {
+  background-color: #eaeaea; /* Light yellow background */
+  border: 1px solid #ffeeba; /* Light yellow border */
+  border-radius: 5px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.message-box i {
+  color: #856404; /* Dark yellow for the warning icon */
+  font-size: 1.2rem;
+}
+
+.message-box span {
+  font-size: 1rem;
+  color: #292929;
+}
