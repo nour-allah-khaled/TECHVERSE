@@ -40,7 +40,8 @@ After completing the design, the pages were implemented using front-end web tech
 - [Nour Allah Khaled](https://github.com/nour-allah-khaled)  
 - [Abdelrahman Hamdy](https://github.com/AbdoHamdy15)
 
-## 🌐 Live Demo  
-🔗 [[TECHVERSE Live Site]([https://nour-allah-khaled.github.io/techverse/](https://nour-allah-khaled.github.io/TECHVERSE/))]
+## 🌐 Live Demo
+You can view the live version of the TECHVERSE project here:  
+🔗 [TECHVERSE Live Site](https://nour-allah-khaled.github.io/TECHVERSE/)
 
 
